@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon server.ts",
     "build": "tsc",
-    "start": "ts-node server.ts",
+    "start": "node dist/server.js",
     "docker:publish": "docker build -t shakti242/elib-backend:v2 --platform linux/amd64 . && docker push shakti242/elib-backend:v2"
   },
   "keywords": [
