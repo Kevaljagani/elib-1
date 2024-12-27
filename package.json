@@ -4,7 +4,6 @@
   "description": "This is an ebook api project",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm install",
     "dev": "nodemon server.ts",
     "build": "tsc",
     "start": "ts-node server.ts",
